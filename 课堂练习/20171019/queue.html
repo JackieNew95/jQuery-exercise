@@ -37,9 +37,10 @@
     let myqueue=new Queue();
     function aa(){alert(1)}
     function bb(){alert(2)}
+    function cc(){alert(3)}
 
-    myqueue.queue(aa).queue(bb);
-    myqueue.delay(3000).queue(aa);
+    myqueue.delay(3000).queue(aa).queue(bb).queue(cc);
+    myqueue.queue(cc);
     myqueue.dequeue().dequeue().dequeue();
 
     console.dir(myqueue);

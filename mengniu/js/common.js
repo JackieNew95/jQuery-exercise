@@ -40,6 +40,10 @@ nav1.on('mouseleave',function () {
         navitemb.eq(index).css({backgroundPositionY:`${navitembyb[index]}px`})
     }
 });
+
+$($('.nav_item')[flag]).css({borderBottom:'1px solid transparent'});
+$($('.nav_item')[flag]).prev().css({borderBottom:'1px solid transparent'});
+
 $('.nav').on('mouseleave',function () {
     navbglogo.css({background:navbgcolor[flag]});
     navbglist.css({top:navbgtop[flag]+'px',background:navbgcolor[flag]});

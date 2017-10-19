@@ -121,13 +121,13 @@
     background: url("../img/3l.png") 0 -60px no-repeat;
 }
 .nav_product i{
-    background: url("../img/3l.png") 0 -120px no-repeat;
+    background: url("../img/3l.png") -45px -120px no-repeat;
 }
 .nav_duty i{
     background: url("../img/3l.png") 0 -180px no-repeat;
 }
 .nav_news i{
-    background: url("../img/3l.png") -45px -240px no-repeat;
+    background: url("../img/3l.png") 0 -240px no-repeat;
 }
 .nav_home b{
     background: url("../img/be.png") 50% 3px no-repeat;
@@ -136,13 +136,13 @@
     background: url("../img/be.png") 50% -12px no-repeat;
 }
 .nav_product b{
-    background: url("../img/be.png") 50% -28px no-repeat;
+    background: url("../img/be.png") 50% -102px no-repeat;
 }
 .nav_duty b{
     background: url("../img/be.png") 50% -43px no-repeat;
 }
 .nav_news b{
-    background: url("../img/be.png") 50% -132px no-repeat;
+    background: url("../img/be.png") 50% -58px no-repeat;
 }
 .nav_item_wrap>ul{
     position: absolute;

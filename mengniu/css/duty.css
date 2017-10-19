@@ -183,6 +183,7 @@
     left: 93px;right: 0;top: 0;bottom: 325px;
     overflow: hidden;
     z-index: 1;
+    display: flex;
 }
 .banner_item{
 	display: block;
@@ -194,28 +195,23 @@
 }
 .banner_item>i{
 	display: block;
-	width: 100%;
+	width: 55%;
 	height: 100%;
 	position: absolute;
 	right: 0;
 	top: 0;
-	margin-right: -45%;
 }
 .banner_item_1{
-	background: url(../img/U1.jpg) 0 0 no-repeat;
-	background-size: cover;
+	background: url(../img/U1.jpg) 0 100%/cover no-repeat;
 }
 .banner_item_2{
-	background: url(../img/V.jpg) 0 0 no-repeat;
-	background-size: cover;
+	background: url(../img/V.jpg) 0 100%/cover no-repeat;
 }
 .banner_item_3{
-	background: url(../img/1U.jpg) 0 0 no-repeat;
-	background-size: cover;
+	background: url(../img/1U.jpg) 0 100%/cover no-repeat;
 }
 .banner_item_4{
-	background: url(../img/1V.jpg) 0 0 no-repeat;	
-	background-size: cover;
+	background: url(../img/1V.jpg) 0 100%/cover no-repeat;
 }
 .banner_item_1>i{
 	background: url(../img/c5.png) 0 100% no-repeat;
