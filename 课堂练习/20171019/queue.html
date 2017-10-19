@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>queue</title>
+</head>
+<body>
+
+<script>
+    class Queue{
+        constructor(){
+            this.list=[];
+        }
+        queue(fn){
+            this.list.push(fn);
+            return this;
+        }
+        dequeue(){
+            let ele=this.list.shift();
+            let that=this;
+            if(typeof ele == 'number'){
+                setTimeout(function () {
+                    (that.list.shift())();
+                },ele)
+            }else {
+                ele();
+            }
+            return this;
+        }
+        delay(num){
+            this.queue(num);
+            return this;
+        }
+    }
+</script>
+<script>
+    let myqueue=new Queue();
+    function aa(){alert(1)}
+    function bb(){alert(2)}
+
+    myqueue.queue(aa).queue(bb);
+    myqueue.delay(3000).queue(aa);
+    myqueue.dequeue().dequeue().dequeue();
+
+    console.dir(myqueue);
+</script>
+</body>
+</html>

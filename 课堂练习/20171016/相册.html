@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>相册</title>
+		<script src="../jquery-3.2.1.js"></script>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			html,body{
+				width: 100%;
+				height: 100%;
+				background: #666;
+			}
+			ul{
+				position: absolute;
+				width: 920px;
+				height: 410px;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				align-content: space-between;
+			}
+			ul>li{
+				width: 300px;
+				height: 200px;
+				cursor: pointer;
+			}
+			ul>li>img{
+				width: 100%;
+				height: 100%;
+			}
+			.mask{
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				width: 600px;
+				height: 400px;
+				box-shadow: 0 0 0 1000px rgba(0,0,0,.9);
+				transform: scale(0,0);
+				transition: .5s;
+			}
+			.active{
+				transform: scale(1,1);
+			}
+			.close{
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				right: -50px;
+				top: -50px;
+				border-radius: 50%;
+				background: url(img/guanbi.svg) center / cover;
+				cursor: pointer;
+			}
+			div[class*=btn]{
+				width: 40px;
+				height: 50px;
+				position: absolute;
+				top: 50%;
+				margin-top: -25px;
+				cursor: pointer;
+			}
+			div.btnL{
+				left: -100px;
+				background: url(img/shang.svg) center /cover;
+			}
+			div.btnR{
+				right: -100px;
+				background: url(img/xia.svg) center /cover;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><img src="img/1.jpg" alt="" /></li>
+			<li><img src="img/2.jpg" alt="" /></li>
+			<li><img src="img/3.jpg" alt="" /></li>
+			<li><img src="img/4.jpg" alt="" /></li>
+			<li><img src="img/5.jpg" alt="" /></li>
+			<li><img src="img/6.jpg" alt="" /></li>
+		</ul>
+		<div class="mask">
+			<div class="close"></div>
+			<div class="btnL"></div>
+			<div class="btnR"></div>
+			<img src="img/1.jpg"/>
+		</div>
+		
+		<script type="text/javascript">
+			let imgs=$('li>img');
+			let mask=$('div.mask');
+			let close=$('div.close');
+			let mImg=$('img',mask);
+            let btnL=$('.btnL');
+            let btnR=$('.btnR');
+			let i=0;
+			imgs.on('click',function(){
+				mask.addClass('active');
+				let src=$(this).attr('src');
+				mImg.attr('src',src);
+				i=imgs.index(this);
+			})
+/*			$(document).on('click',function (e) {
+				let element=e.target;
+				if (element.nodeName=='IMG'){
+                    mask.addClass('active');
+                    let src=$(element).prop('src');
+                    mImg.prop('src',src);
+                    i=imgs.index(element);
+				}
+            });*/
+			close.on('click',function(){
+				mask.removeClass('active');
+			});
+            btnL.on('click',function(e){
+                e.stopPropagation();
+                i--;
+                if(i<0){
+                    i=imgs.length-1;
+                }
+                let src=$(imgs[i]).prop('src');
+                mImg.prop('src',src);
+            });
+            btnR.on('click',function(e){
+                e.stopPropagation();
+                btnR.bind("selectstart", function () { return false; });//防止快速单击变蓝
+                i++;
+                if(i>imgs.length-1){
+                    i=0;
+                }
+                let src=$(imgs[i]).prop('src');
+                mImg.prop('src',src);
+            });
+			mask.on('click',function (e) {
+				let lefts=e.clientX;
+                if(lefts<innerWidth/2){
+					btnL.trigger('click');
+				}
+				if(lefts>innerWidth/2){
+                    btnR.trigger('click');
+				}
+            })
+		</script>
+	</body>
+</html>

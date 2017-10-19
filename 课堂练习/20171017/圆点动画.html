@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-3.2.1.js"></script>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            background: blue;
+            border-radius: 50%;
+        }
+        .circle{
+            width: 50px;
+            height:50px;
+            border-radius: 50%;
+            background: #00A244;
+            position: absolute;
+            left: calc(50% - 25px);
+            top: calc(50% - 25px);
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        $(function () {
+//            let divs=$('<div>');
+//            divs.addClass('box');
+//            $(document.body).append(divs).text('现在操作的是body，结果是body下只有这句话');
+//            divs.appendTo(document.body).text('现在操作的是divs，结果是body有divs，divs里有这句话');
+//            谁写在最前面，之后的操作都会是对于它
+            for(let i=0;i<50;i++){
+                let width=Math.floor(Math.random()*50+40);
+                let left=Math.floor(Math.random()*(innerWidth-100))+'px';
+                let top=Math.floor(Math.random()*(innerHeight-100))+'px';
+                let r=Math.floor(Math.random()*256),
+                    g=Math.floor(Math.random()*256),
+                    b=Math.floor(Math.random()*256);
+
+                $('<div>').appendTo(document.body).addClass('circle').delay(i*10).animate({top,left,width,opacity:1,height:width}).css({background:`rgb(${r},${g},${b})`});
+
+            }
+
+
+        })
+    </script>
+</body>
+</html>

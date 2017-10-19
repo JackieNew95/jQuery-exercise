@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg.jpg") center / cover no-repeat;
+}
+.desk{
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.poke{
+    width: 100px;
+    height: 140px;
+    position: absolute;
+    left: calc(50% - 50px);
+    top: 0;
+    opacity: 0;
+    background-position: center;
+    background-size: contain;
+}
+.active{
+    box-shadow: 0 0 0 3px #71BDE4;
+}
+.btn{
+    width: 100px;
+    height: 140px;
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 50px);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    cursor: pointer;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.btnToL{
+    width: 100px;
+    height: 55px;
+    background: #00bfff;
+    border-radius: 10px;
+}
+.btnToR{
+    width: 100px;
+    height: 55px;
+    background: #90ee90;
+    border-radius: 10px;
+}
+.up{
+    z-index: 1;
+}
