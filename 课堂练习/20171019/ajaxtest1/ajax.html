@@ -25,7 +25,7 @@
 </body>
 <script>
     let xml=new XMLHttpRequest();//创建xml对象
-    xml.open('get','test.txt',true);//打开方式、请求路径、是否异步
+    xml.open('get','test.txt',true);//打开方式(get数据量大放在地址栏不安全\set数据量小安全\...)、请求路径、是否异步
     xml.send();//发送请求
     xml.onreadystatechange=function () {//监听事件
         if(xml.readyState == 4){//readyState服务器状态，4能够响应

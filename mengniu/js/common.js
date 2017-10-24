@@ -22,6 +22,8 @@ nav1.on('mouseenter',function () {
         $(this).css({background:'#ffffff'});
         $('.nav_item',this).css({borderBottom:'1px solid transparent'});
         $('.nav_item',$(this).prev()).css({borderBottom:'1px solid transparent'});
+/*        $($('.nav_item')[flag]).css({borderBottom:'1px solid transparent'});
+        $($('.nav1')[flag]).prev().find($('.nav_item')).css({borderBottom:'1px solid transparent'});*/
         navitemi.eq(index).css({backgroundPositionX:'-45px'});
         navitemb.eq(index).css({backgroundPositionY:`${-1*navitemby[index]}px`})
 	}
@@ -32,7 +34,23 @@ nav1.on('mouseleave',function () {
     $('.sub_nav_wrap',this).css({display:'none'});
     $('ul',this).css({display:'none'});
     $('li',this).css({left:'-93px'});
-    if(flag!=index) {
+    if(flag==index){
+        $('.nav_item',this).css({borderBottom:`1px solid ${navbgcolor[flag]}`});
+        $('.nav_item',$(this).prev()).css({borderBottom:`1px solid ${navbgcolor[flag]}`});
+
+    }else if(index==flag-1){
+        $('.nav_item',this).css({borderBottom:`1px solid ${navbgcolor[flag]}`});
+        $('.nav_item',$(this).prev()).css({borderBottom:'1px solid #898A87'});
+        $(this).css({background:'none'});
+        navitemi.eq(index).css({backgroundPositionX:'0'});
+        navitemb.eq(index).css({backgroundPositionY:`${navitembyb[index]}px`})
+    }else if(index==flag+1){
+        $('.nav_item',this).css({borderBottom:'1px solid #898A87'});
+        $('.nav_item',$(this).prev()).css({borderBottom:`1px solid ${navbgcolor[flag]}`});
+        $(this).css({background:'none'});
+        navitemi.eq(index).css({backgroundPositionX:'0'});
+        navitemb.eq(index).css({backgroundPositionY:`${navitembyb[index]}px`})
+    }else if(flag!=index) {
         $(this).css({background:'none'});
         $('.nav_item',this).css({borderBottom:'1px solid #898A87'});
         $('.nav_item',$(this).prev()).css({borderBottom:'1px solid #898A87'});
@@ -41,8 +59,10 @@ nav1.on('mouseleave',function () {
     }
 });
 
-$($('.nav_item')[flag]).css({borderBottom:'1px solid transparent'});
-$($('.nav_item')[flag]).prev().css({borderBottom:'1px solid transparent'});
+$($('.nav_item')[flag]).css({borderBottom:`1px solid ${navbgcolor[flag]}`});
+$($('.nav1')[flag]).prev().find($('.nav_item')).css({borderBottom:`1px solid ${navbgcolor[flag]}`});
+navbglist.css({top:navbgtop[flag]+'px',background:navbgcolor[flag]});
+//初始化列表背景和颜色
 
 $('.nav').on('mouseleave',function () {
     navbglogo.css({background:navbgcolor[flag]});

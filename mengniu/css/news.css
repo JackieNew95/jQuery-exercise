@@ -17,7 +17,6 @@
     z-index: -1;
     opacity: 0.9;
     background: #00A244;
-    transition: all ease 0.3s;
 }
 .nav_bg_list{
     height: 107px;
@@ -191,12 +190,14 @@
 	height: 33.333333%;
 	position: relative;
 	overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .banner_item>.title_wrap{
     position: absolute;
     width: 172px;
     height: 245px;
-    bottom: 10px;
+    bottom: 56px;
     display: block;
     text-align: center;
     cursor: pointer;
@@ -221,9 +222,9 @@
 .title_wrap em {
     display: block;
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
+    left: -60px;
+    right: -60px;
+    top: -170px;
     bottom: 0;
     opacity: .75;
 }
@@ -249,16 +250,16 @@
     /*transition: background .3s,color .3s;*/
 }
 .banner_item_1{
-	background: url(../img/G.k.jpg) 0 -200px no-repeat;
-	background-size: cover;
+	background-image: url(../img/G.k.jpg);
+    background-position: 0 -200px ;
 }
 .banner_item_2{
-	background: url(../img/f.k.jpg) 0 -150px no-repeat;
-	background-size: cover;
+    background-image: url(../img/f.k.jpg);
+    background-position: 0 -150px;
 }
 .banner_item_3{
-	background: url(../img/I.k.jpg) 0 -150px no-repeat;
-	background-size: cover;
+    background-image: url(../img/I.k.jpg);
+    background-position: 0 -150px;
 }
 .banner_item_1>.title_wrap{
 	left: 13.35%;
