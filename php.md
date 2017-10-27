@@ -6,8 +6,6 @@ header('Content-type:text/html;charset=utf8');告诉浏览器用utf8显示PHP文
 
 
 
-
-
 字符的连接（相当于+号）：
 
 ​	.
@@ -39,3 +37,25 @@ php写SQL语句要写双引号
 
 
 $_REQUEST不管传过来是什么方式的都能接收
+
+
+
+
+
+遍历数组
+
+count()用来得到数组长度
+
+include//PHP互相引用PHP中间引用html
+
+
+
+
+
+php里包含js
+
+```php
+echo "<script>location.href='main.php'</script>";
+echo "<script>alert(1)</script>";
+```
+
