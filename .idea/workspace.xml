@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19e63940-0f74-45f0-9843-e3294135b480" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mengniu/.project" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/img/4.k.png" afterPath="$PROJECT_DIR$/mengniu/img/4.k.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery.md" afterPath="$PROJECT_DIR$/jQuery.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/about.html" afterPath="$PROJECT_DIR$/mengniu/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/css/duty.css" afterPath="$PROJECT_DIR$/mengniu/css/duty.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/css/introduce.css" afterPath="$PROJECT_DIR$/mengniu/css/introduce.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/duty.html" afterPath="$PROJECT_DIR$/mengniu/duty.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/index.html" afterPath="$PROJECT_DIR$/mengniu/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/introduce.html" afterPath="$PROJECT_DIR$/mengniu/introduce.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/js/duty.js" afterPath="$PROJECT_DIR$/mengniu/js/duty.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/js/introduce.js" afterPath="$PROJECT_DIR$/mengniu/js/introduce.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/news.html" afterPath="$PROJECT_DIR$/mengniu/news.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/product.html" afterPath="$PROJECT_DIR$/mengniu/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php.md" afterPath="$PROJECT_DIR$/php.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,7 +48,12 @@
       <find>h2.content_title</find>
       <find>before_view_more h2.content_title</find>
       <find>article_inner</find>
+      <find>.brandlist1</find>
+      <find>.brandlist4</find>
     </findStrings>
+    <replaceStrings>
+      <replace>.brandlist</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,15 +90,20 @@
         <option value="$PROJECT_DIR$/mengniu/css/news.css" />
         <option value="$PROJECT_DIR$/mengniu/js/news.js" />
         <option value="$PROJECT_DIR$/mengniu/js/introduce.js" />
-        <option value="$PROJECT_DIR$/mengniu/index.html" />
         <option value="$PROJECT_DIR$/mengniu/css/introduce.css" />
-        <option value="$PROJECT_DIR$/mengniu/introduce.html" />
-        <option value="$PROJECT_DIR$/mengniu/about.html" />
-        <option value="$PROJECT_DIR$/mengniu/product.html" />
-        <option value="$PROJECT_DIR$/mengniu/duty.html" />
-        <option value="$PROJECT_DIR$/mengniu/news.html" />
         <option value="$PROJECT_DIR$/mengniu/css/duty.css" />
         <option value="$PROJECT_DIR$/mengniu/js/duty.js" />
+        <option value="$PROJECT_DIR$/mengniu/js/porductlist.js" />
+        <option value="$PROJECT_DIR$/mengniu/porductlist.html" />
+        <option value="$PROJECT_DIR$/mengniu/css/porductlist.css" />
+        <option value="$PROJECT_DIR$/mengniu/css/productlist.css" />
+        <option value="$PROJECT_DIR$/mengniu/productlist.html" />
+        <option value="$PROJECT_DIR$/mengniu/product.html" />
+        <option value="$PROJECT_DIR$/mengniu/news.html" />
+        <option value="$PROJECT_DIR$/mengniu/introduce.html" />
+        <option value="$PROJECT_DIR$/mengniu/about.html" />
+        <option value="$PROJECT_DIR$/mengniu/duty.html" />
+        <option value="$PROJECT_DIR$/mengniu/index.html" />
       </list>
     </option>
   </component>
@@ -116,6 +120,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
@@ -140,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,13 +157,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/5iweb2016112401" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="JavaScriptPreferStrict" value="false" />
@@ -222,11 +227,18 @@
       <workItem from="1508979016845" duration="6325000" />
       <workItem from="1509017535104" duration="603000" />
       <workItem from="1509072709841" duration="5851000" />
+      <workItem from="1509081066821" duration="7817000" />
+      <workItem from="1509089058020" duration="10000" />
+      <workItem from="1509172808706" duration="598000" />
+      <workItem from="1509181368404" duration="65000" />
+      <workItem from="1509251139919" duration="1022000" />
+      <workItem from="1509288119608" duration="641000" />
+      <workItem from="1509295697309" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147918000" />
+    <option name="totallyTimeSpent" value="159627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -246,6 +258,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -318,7 +331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="336" column="78" lean-forward="false" selection-start-line="336" selection-start-column="78" selection-end-line="336" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -326,7 +338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="163" column="35" lean-forward="false" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -334,7 +345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="142" column="54" lean-forward="false" selection-start-line="142" selection-start-column="54" selection-end-line="142" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -342,7 +352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="153" column="54" lean-forward="false" selection-start-line="153" selection-start-column="54" selection-end-line="153" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -350,7 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
           <caret line="124" column="55" lean-forward="false" selection-start-line="124" selection-start-column="55" selection-end-line="124" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -358,23 +366,194 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mengniu/css/duty.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mengniu/duty.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="130" column="11" lean-forward="true" selection-start-line="130" selection-start-column="11" selection-end-line="130" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="132" column="30" lean-forward="true" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/css/duty.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="220" column="58" lean-forward="true" selection-start-line="220" selection-start-column="58" selection-end-line="220" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/img/D.d.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/css/productlist.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="315" column="0" lean-forward="true" selection-start-line="315" selection-start-column="0" selection-end-line="315" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/js/productlist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/productlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="167" column="54" lean-forward="false" selection-start-line="167" selection-start-column="54" selection-end-line="167" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课堂练习/20171013/myjQuery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/introduce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8575">
+          <caret line="343" column="59" lean-forward="true" selection-start-line="343" selection-start-column="59" selection-end-line="343" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/js/introduce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/css/introduce.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13600">
+          <caret line="544" column="27" lean-forward="true" selection-start-line="544" selection-start-column="27" selection-end-line="544" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/js/introduce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课堂练习/20171020/ajaxtest2/ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/img/Z.k.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/img/4.k.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/css/introduce.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="297" column="19" lean-forward="false" selection-start-line="297" selection-start-column="19" selection-end-line="297" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/js/duty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/css/duty.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="220" column="58" lean-forward="true" selection-start-line="220" selection-start-column="58" selection-end-line="220" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/img/D.d.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/js/productlist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课堂练习/20171013/myjQuery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/css/productlist.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="315" column="0" lean-forward="true" selection-start-line="315" selection-start-column="0" selection-end-line="315" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/introduce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/duty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/productlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="59" column="43" lean-forward="true" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
         </state>
       </provider>
     </entry>
