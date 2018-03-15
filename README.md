@@ -1,2 +1,2 @@
-# jQueryinUEK
-jQueryinUEK
+# jQuery-exercise
+jQuery-exercise
